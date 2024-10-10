@@ -1,0 +1,38 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Lato", sans-serif;
+    text-rendering: geometricPrecision;
+}
+
+html { scroll-behavior: smooth; }
+
+body { background-color: #f5f5f5; }
+
+ul { list-style: none; }
+
+button { cursor: pointer; }
+
+a { text-decoration: none;}
+
+br { height: 1em; }
+
+.protect {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background-color: #cccccc; }
+::-webkit-scrollbar-thumb {
+    background-color: #000000; 
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover { background-color: #333333; }
