@@ -6,8 +6,11 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    appearance: none;
+    -webkit-appearance: none;
     font-family: "Lato", sans-serif;
     text-rendering: geometricPrecision;
+    font-size: 14px;
 }
 
 html { scroll-behavior: smooth; }
