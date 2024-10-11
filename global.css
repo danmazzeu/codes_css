@@ -12,13 +12,22 @@
 
 html { scroll-behavior: smooth; }
 
-body { background-color: #f5f5f5; }
+body { 
+    padding: 0 25px;
+    background-color: #f5f5f5; 
+}
 
 ul { list-style: none; }
 
-button { cursor: pointer; }
+button { 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
 
-a { text-decoration: none;}
+a { 
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
 
 br { height: 1em; }
 
