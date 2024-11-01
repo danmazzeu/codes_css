@@ -1,0 +1,42 @@
+[data-grid] {
+    display: grid;
+    gap: 10px;
+}
+
+[data-grid="1"] { grid-template-columns: 1fr; }
+[data-grid="2"] { grid-template-columns: repeat(2, 1fr); }
+[data-grid="3"] { grid-template-columns: repeat(3, 1fr); }
+[data-grid="4"] { grid-template-columns: repeat(4, 1fr); }
+[data-grid="5"] { grid-template-columns: repeat(5, 1fr); }
+
+@media (max-width: 575px) {
+    [data-grid] { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    [data-grid="4"],
+    [data-grid="5"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    [data-grid="4"],
+    [data-grid="5"] {
+          grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    [data-grid="5"] { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Usage
+<main data-grid="4">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+</main>
+*/
