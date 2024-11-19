@@ -35,7 +35,7 @@ a {
 
 br { height: 1em; }
 
-.protect {
+.protected {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
