@@ -1,0 +1,4 @@
+.protected {
+    user-select: none;
+    pointer-events: none;
+}
