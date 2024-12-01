@@ -36,10 +36,6 @@ br {
     height: 1em;
 }
 
-.protected {
-    user-select: none;
-}
-
 ::-webkit-scrollbar {
     width: 10px;
 }
