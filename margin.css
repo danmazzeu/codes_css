@@ -1,0 +1,68 @@
+m-auto { margin: auto; }
+m-none { margin: 0; }
+
+m-5 { margin: 5px; }
+m-10 { margin: 10px; }
+m-15 { margin: 15px; }
+m-20 { margin: 20px; }
+m-25 { margin: 25px; }
+m-30 { margin: 30px; }
+m-35 { margin: 35px; }
+m-40 { margin: 40px; }
+m-45 { margin: 45px; }
+m-50 { margin: 50px; }
+
+ml-5 { margin-left: 5px; }
+ml-10 { margin-left: 10px; }
+ml-15 { margin-left: 15px; }
+ml-20 { margin-left: 20px; }
+ml-25 { margin-left: 25px; }
+ml-30 { margin-left: 30px; }
+ml-35 { margin-left: 35px; }
+ml-40 { margin-left: 40px; }
+ml-45 { margin-left: 45px; }
+ml-50 { margin-left: 50px; }
+
+mr-5 { margin-right: 5px; }
+mr-10 { margin-right: 10px; }
+mr-15 { margin-right: 15px; }
+mr-20 { margin-right: 20px; }
+mr-25 { margin-right: 25px; }
+mr-30 { margin-right: 30px; }
+mr-35 { margin-right: 35px; }
+mr-40 { margin-right: 40px; }
+mr-45 { margin-right: 45px; }
+mr-50 { margin-right: 50px; }
+
+mb-5 { margin-bottom: 5px; }
+mb-10 { margin-bottom: 10px; }
+mb-15 { margin-bottom: 15px; }
+mb-20 { margin-bottom: 20px; }
+mb-25 { margin-bottom: 25px; }
+mb-30 { margin-bottom: 30px; }
+mb-35 { margin-bottom: 35px; }
+mb-40 { margin-bottom: 40px; }
+mb-45 { margin-bottom: 45px; }
+mb-50 { margin-bottom: 50px; }
+
+mx-5 { margin: auto 5px; }
+mx-10 { margin: auto 10px; }
+mx-15 { margin: auto 15px; }
+mx-20 { margin: auto 20px; }
+mx-25 { margin: auto 25px; }
+mx-30 { margin: auto 30px; }
+mx-35 { margin: auto 35px; }
+mx-40 { margin: auto 40px; }
+mx-45 { margin: auto 45px; }
+mx-50 { margin: auto 50px; }
+
+my-5 { margin: 5px auto; }
+my-10 { margin: 10px auto; }
+my-15 { margin: 15px auto; }
+my-20 { margin: 20px auto; }
+my-25 { margin: 25px auto; }
+my-30 { margin: 30px auto; }
+my-35 { margin: 35px auto; }
+my-40 { margin: 40px auto; }
+my-45 { margin: 45px auto; }
+my-50 { margin: 50px auto; }
