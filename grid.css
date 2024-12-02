@@ -15,7 +15,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .grid-4, grid-5 { grid-template-columns: repeat(3, 1fr); }
+    .grid-4, .grid-5 { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
