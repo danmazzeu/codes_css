@@ -1,0 +1,10 @@
+.row,
+.row-centered {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-centered {
+    align-items: center;
+    justify-content: center;
+}
