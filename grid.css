@@ -1,42 +1,62 @@
-[data-grid] {
-    display: grid;
-    gap: 10px;
+.grid { display: grid; }
+
+.g-1 { grid-template-columns: 1fr; }
+.g-2 { grid-template-columns: repeat(2, 1fr); }
+.g-3 { grid-template-columns: repeat(3, 1fr); }
+.g-4 { grid-template-columns: repeat(4, 1fr); }
+.g-5 { grid-template-columns: repeat(5, 1fr); }
+
+.gap-5  { gap: 5px; }
+.gap-10  { gap: 10px; }
+.gap-15  { gap: 15px; }
+.gap-20  { gap: 20px; }
+.gap-25  { gap: 25px; }
+.gap-30  { gap: 30px; }
+.gap-35  { gap: 35px; }
+.gap-40  { gap: 40px; }
+.gap-45  { gap: 45px; }
+.gap-50  { gap: 50px; }
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
-[data-grid="1"] { grid-template-columns: 1fr; }
-[data-grid="2"] { grid-template-columns: repeat(2, 1fr); }
-[data-grid="3"] { grid-template-columns: repeat(3, 1fr); }
-[data-grid="4"] { grid-template-columns: repeat(4, 1fr); }
-[data-grid="5"] { grid-template-columns: repeat(5, 1fr); }
+.row {
+    display: flex;
+    flex-direction: row;
+}
 
 @media (max-width: 575px) {
-    [data-grid] { grid-template-columns: 1fr; }
+    .g-1 { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    [data-grid="4"],
-    [data-grid="5"] {
+    .g-4,
+    .g-5 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    [data-grid="4"],
-    [data-grid="5"] {
-          grid-template-columns: repeat(3, 1fr);
+    g-4,
+    g-5 {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    [data-grid="5"] { grid-template-columns: repeat(4, 1fr); }
+    .g-5 { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* Usage
-<main data-grid="4">
-    <div>Item 1</div>
-    <div>Item 2</div>
-    <div>Item 3</div>
-    <div>Item 4</div>
-    <div>Item 5</div>
+<main class="grid g-1 gap-10">
+    <section class="col">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+    </section>
 </main>
 */
