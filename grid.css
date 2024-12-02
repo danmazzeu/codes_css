@@ -1,10 +1,10 @@
 .grid { display: grid; }
 
-.g-1 { grid-template-columns: 1fr; }
-.g-2 { grid-template-columns: repeat(2, 1fr); }
-.g-3 { grid-template-columns: repeat(3, 1fr); }
-.g-4 { grid-template-columns: repeat(4, 1fr); }
-.g-5 { grid-template-columns: repeat(5, 1fr); }
+.grid-1 { grid-template-columns: 1fr; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-5 { grid-template-columns: repeat(5, 1fr); }
 
 .gap-5  { gap: 5px; }
 .gap-10  { gap: 10px; }
@@ -17,40 +17,53 @@
 .gap-45  { gap: 45px; }
 .gap-50  { gap: 50px; }
 
-.col {
+.col,
+.col-centered {
     display: flex;
     flex-direction: column;
 }
 
-.row {
+.row,
+.row-centered {
     display: flex;
     flex-direction: row;
 }
 
+.col-centered,
+.row-centered { 
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 575px) {
-    .g-1 { grid-template-columns: 1fr; }
+    .grid-1 { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .g-4, .g-5 { grid-template-columns: repeat(2, 1fr); }
+    .grid-4, .grid-5 { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    g-4, g-5 { grid-template-columns: repeat(3, 1fr); }
+    grid-4, grid-5 { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .g-5 { grid-template-columns: repeat(4, 1fr); }
+    .grid-5 { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* Usage
-<main class="grid g-1 gap-10">
+<main class="grid grid-1 gap-10">
     <section class="col">
         <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
-        <div>Item 5</div>
+    </section>
+    <section class="row">
+        <div>Item 1</div>
+    </section>
+    <section class="col-centered">
+        <div>Item 1</div>
+    </section>
+    <section class="row-centered">
+        <div>Item 1</div>
     </section>
 </main>
 */
