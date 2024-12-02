@@ -32,17 +32,11 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .g-4,
-    .g-5 {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    .g-4, .g-5 { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    g-4,
-    g-5 {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    g-4, g-5 { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
