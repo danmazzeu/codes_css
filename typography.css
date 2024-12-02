@@ -35,3 +35,11 @@
 .ta-left { text-align: left !important; }
 .ta-right { text-align: right !important; }
 .ta-justify { text-align: justify !important; }
+
+.lh-20 { line-height: 20px !important; }
+.lh-25 { line-height: 25px !important; }
+.lh-30 { line-height: 30px !important; }
+.lh-35 { line-height: 35px !important; }
+.lh-40 { line-height: 40px !important; }
+.lh-45 { line-height: 45px !important; }
+.lh-50 { line-height: 50px !important; }
