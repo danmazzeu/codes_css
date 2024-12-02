@@ -24,16 +24,16 @@
 
 /* Usage
 <main class="grid grid-1 gap-10">
-    <section class="col">
+    <section>
         <div>Item 1</div>
     </section>
-    <section class="row">
+    <section>
         <div>Item 1</div>
     </section>
-    <section class="col-centered">
+    <section>
         <div>Item 1</div>
     </section>
-    <section class="row-centered">
+    <section>
         <div>Item 1</div>
     </section>
 </main>
