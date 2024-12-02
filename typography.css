@@ -1,37 +1,37 @@
-.ts-10 { font-size: 10px; }
-.ts-15 { font-size: 15px; }
-.ts-20 { font-size: 20px; }
-.ts-25 { font-size: 25px; }
-.ts-30 { font-size: 30px; }
-.ts-35 { font-size: 35px; }
-.ts-40 { font-size: 40px; }
-.ts-45 { font-size: 45px; }
-.ts-50 { font-size: 50px; }
+.ts-10 { font-size: 10px !important; }
+.ts-15 { font-size: 15px !important; }
+.ts-20 { font-size: 20px !important; }
+.ts-25 { font-size: 25px !important; }
+.ts-30 { font-size: 30px !important; }
+.ts-35 { font-size: 35px !important; }
+.ts-40 { font-size: 40px !important; }
+.ts-45 { font-size: 45px !important; }
+.ts-50 { font-size: 50px !important; }
 
-.tw-100 { font-weight: 100; }
-.tw-100 { font-weight: 200; }
-.tw-100 { font-weight: 300; }
-.tw-100 { font-weight: 400; }
-.tw-100 { font-weight: 500; }
-.tw-100 { font-weight: 600; }
-.tw-100 { font-weight: 700; }
-.tw-100 { font-weight: 800; }
-.tw-100 { font-weight: 900; }
+.tw-100 { font-weight: 100 !important; }
+.tw-100 { font-weight: 200 !important; }
+.tw-100 { font-weight: 300 !important; }
+.tw-100 { font-weight: 400 !important; }
+.tw-100 { font-weight: 500 !important; }
+.tw-100 { font-weight: 600 !important; }
+.tw-100 { font-weight: 700 !important; }
+.tw-100 { font-weight: 800 !important; }
+.tw-100 { font-weight: 900 !important; }
 
-.td-underline { text-decoration: underline; }
-.td-dashed { text-decoration: dashed; }
-.td-dotted { text-decoration: dotted; }
-.td-double { text-decoration: double; }
-.td-line { text-decoration: line-through; }
-.td-overline { text-decoration: overline; }
-.td-solid { text-decoration: solid; }
-.td-wavy { text-decoration: wavy; }
+.td-underline { text-decoration: underline !important; }
+.td-dashed { text-decoration: dashed !important; }
+.td-dotted { text-decoration: dotted !important; }
+.td-double { text-decoration: double !important; }
+.td-line { text-decoration: line-through !important; }
+.td-overline { text-decoration: overline !important; }
+.td-solid { text-decoration: solid !important; }
+.td-wavy { text-decoration: wavy !important; }
 
-.tt-capital { text-transform: capitalize;}
-.tt-lower { text-transform:lowercase;}
-.tt-upper { text-transform:uppercase;}
+.tt-capital { text-transform: capitalize !important;}
+.tt-lower { text-transform:lowercase !important;}
+.tt-upper { text-transform:uppercase !important;}
 
-.ta-center { text-align: center; }
-.ta-left { text-align: left; }
-.ta-right { text-align: right; }
-.ta-justify { text-align: justify; }
+.ta-center { text-align: center !important; }
+.ta-left { text-align: left !important; }
+.ta-right { text-align: right !important; }
+.ta-justify { text-align: justify !important; }
