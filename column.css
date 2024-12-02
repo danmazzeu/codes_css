@@ -2,9 +2,10 @@
 .column-centered {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.col-centered {
+.column-centered {
     align-items: center;
     justify-content: center;
 }

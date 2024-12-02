@@ -2,6 +2,7 @@
 .row-centered {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .row-centered {
