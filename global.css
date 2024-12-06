@@ -40,3 +40,10 @@ select {
 br {
     height: 1em;
 }
+
+input:disabled,
+select:disabled,
+textarea:disabled {
+    background-color: #f9f9f9;
+    opacity: 0.6;
+}
