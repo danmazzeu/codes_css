@@ -41,9 +41,11 @@ br {
     height: 1em;
 }
 
+button:disabled,
 input:disabled,
 select:disabled,
 textarea:disabled {
-    background-color: #f9f9f9;
-    opacity: 0.6;
+    background-color: #999 !important;
+    opacity: 0.7;
+    cursor: default !important;
 }
