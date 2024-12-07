@@ -1,0 +1,18 @@
+.button {
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--borderRadius);
+    color: #fff;
+    background-color: #444;
+}
+
+.button:active,
+.button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.button:disabled {
+    background-color: #999 !important;
+}
