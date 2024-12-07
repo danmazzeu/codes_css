@@ -24,17 +24,8 @@
 
 /* Usage
 <main class="grid grid-1 gap-10">
-    <section>
-        <div>Item 1</div>
-    </section>
-    <section>
-        <div>Item 1</div>
-    </section>
-    <section>
-        <div>Item 1</div>
-    </section>
-    <section>
-        <div>Item 1</div>
-    </section>
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
 </main>
 */
