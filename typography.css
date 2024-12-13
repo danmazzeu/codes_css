@@ -36,8 +36,9 @@
 .td-wavy { text-decoration: wavy !important; }
 
 .tt-capital { text-transform: capitalize !important;}
-.tt-lower { text-transform:lowercase !important;}
-.tt-upper { text-transform:uppercase !important;}
+.tt-lower { text-transform: lowercase !important;}
+.tt-upper { text-transform: uppercase !important;}
+.tt-upper { text-transform: uppercase !important;}
 
 .ta-center { text-align: center !important; }
 .ta-left { text-align: left !important; }
