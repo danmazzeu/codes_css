@@ -39,6 +39,8 @@
 .tt-lower { text-transform: lowercase !important;}
 .tt-upper { text-transform: uppercase !important;}
 .tt-upper { text-transform: uppercase !important;}
+.tt-italic { font-style: italic; }
+.tt-oblique { font-style: oblique; }
 
 .ta-center { text-align: center !important; }
 .ta-left { text-align: left !important; }
