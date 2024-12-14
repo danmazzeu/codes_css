@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 * {
@@ -14,7 +13,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-    padding: 0 25px;
+    padding: 30px;
     background-color: var(--body-background);
 }
 
@@ -43,3 +42,5 @@ textarea:disabled {
     opacity: 0.7;
     cursor: default !important;
 }
+
+.hidden { display: none !important; }
