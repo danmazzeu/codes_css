@@ -66,12 +66,8 @@
 .ls-4 { letter-spacing: 4px !important; }
 .ls-5 { letter-spacing: 5px !important; }
 
-.ff-lato {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-}
+.ff-lato,
+.ff-sacramento { font-style: normal; }
 
-.ff-sacramento {
-    font-family: "Sacramento", cursive;
-    font-style: normal;
-}
+.ff-lato { font-family: "Lato", sans-serif; }
+.ff-sacramento { font-family: "Sacramento", cursive; }
