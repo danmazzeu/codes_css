@@ -9,12 +9,13 @@
     font-family: "Lato", sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 html { scroll-behavior: smooth; }
 
 body {
-    padding: 30px;
+    padding: var(--body-padding);
     background-color: var(--body-background);
 }
 
@@ -27,6 +28,10 @@ a {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     text-decoration: none !important;
+}
+
+a:focus, a:active {
+    outline: none !important;
 }
 
 select {
