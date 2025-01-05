@@ -21,10 +21,13 @@
 .col-75 { flex: 0 0 75%; }
 .col-100 { flex: 0 0 100%; }
 
+@media (max-width: 1200px) {
+    .col { flex: 0 0 50%; }
+    .col-100 { flex: 0 0 100%; }
+}
+
 @media (max-width: 768px) {
-    .col {
-        flex: 0 0 100%;
-    }
+    .col { flex: 0 0 100%; }
 }
 
 .gap-5  { gap: 5px !important; }
