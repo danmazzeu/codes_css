@@ -12,6 +12,14 @@
     transition: all 0.3s ease-in-out;
 }
 
+html,
+body {
+    text-size-adjust: none; 
+    -webkit-text-size-adjust: none; 
+    -ms-text-size-adjust: none; 
+    -moz-text-size-adjust: none;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
