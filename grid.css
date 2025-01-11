@@ -37,3 +37,22 @@
 .gap-40  { gap: 40px !important; }
 .gap-45  { gap: 45px !important; }
 .gap-50  { gap: 50px !important; }
+
+/* Usage
+    <main class="grid">
+        <section class="row">
+            <div class="col col-25">
+                item
+            </div>
+            <div class="col col-25">
+                item
+            </div>
+            <div class="col col-25">
+                item
+            </div>
+            <div class="col col-25">
+                item
+            </div>
+        </section>
+    </main>
+*/
