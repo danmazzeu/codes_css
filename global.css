@@ -5,11 +5,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: none;
+    outline: none !important;
     font-family: "Lato", sans-serif;
     text-rendering: optimizeLegibility;
-    font-size: 15px;
-    transition: all 0.3s ease-in-out;
+    font-size: var(--fontSize);
+    transition: var(--transition);
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 html,
@@ -23,31 +25,15 @@ body {
 html { scroll-behavior: smooth; }
 
 body {
-    padding: var(--body-padding);
-    background-color: var(--body-background);
+    padding: var(--bodyPadding);
+    background-color: var(--bodyBackground);
 }
 
 ul { list-style: none; }
 
 br { height: 1em; }
 
-button,
-a {
-    cursor: pointer;
-    text-decoration: none !important;
-}
-
-a:focus, a:active {
-    outline: none !important;
-}
-
-input,
-textarea,
-button,
-select,
-a {
-    -webkit-tap-highlight-color: transparent;
-}
+button {cursor: pointer; }
 
 select {
     appearance: none;
@@ -60,8 +46,5 @@ input:disabled,
 select:disabled,
 textarea:disabled {
     background-color: #f4f4f4 !important;
-    opacity: 0.7;
     cursor: default !important;
 }
-
-.hidden { display: none !important; }
