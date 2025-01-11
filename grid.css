@@ -1,3 +1,7 @@
+:root {
+    --gridGap: 15px;
+}
+
 .grid {
     width: 100%;
     max-width: 1200px;
@@ -11,12 +15,12 @@
   
 .col { flex: 1; }
   
-.col-25 { flex: 0 0 25%; }
-.col-33 { flex: 0 0 33.33%; }
-.col-50 { flex: 0 0 50%; }
-.col-66 { flex: 0 0 66.67%; }
-.col-75 { flex: 0 0 75%; }
-.col-100 { flex: 0 0 100%; }
+.col-25 { flex: 0 0 calc(25% - var(--gridGap)); }
+.col-33 { flex: 0 0 calc(33.33% - var(--gridGapp)); }
+.col-50 { flex: 0 0 calc(50% - var(--gridGap)); }
+.col-66 { flex: 0 0 calc(66.67% - var(--gridGap)); }
+.col-75 { flex: 0 0 calc(75% - var(--gridGap)); }
+.col-100 { flex: 0 0 calc(100% - var(--gridGap)); }
 
 @media (max-width: 1200px) {
     .col { flex: 0 0 50%; }
@@ -26,17 +30,6 @@
 @media (max-width: 768px) {
     .col { flex: 0 0 100%; }
 }
-
-.gap-5  { gap: 5px !important; }
-.gap-10  { gap: 10px !important; }
-.gap-15  { gap: 15px !important; }
-.gap-20  { gap: 20px !important; }
-.gap-25  { gap: 25px !important; }
-.gap-30  { gap: 30px !important; }
-.gap-35  { gap: 35px !important; }
-.gap-40  { gap: 40px !important; }
-.gap-45  { gap: 45px !important; }
-.gap-50  { gap: 50px !important; }
 
 /* Usage
     <main class="grid">
