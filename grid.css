@@ -30,7 +30,7 @@
     .col-100 { flex: 0 0 100%; }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
     .col { flex: 0 0 50%; } 
     .col-100 { flex: 0 0 100%; }
 }
