@@ -3,8 +3,9 @@
 }
 
 .grid {
-    max-width: calc(1200px + (2 * var(--gridGap)));
+    max-width: 1200px;
     margin: 0 auto;
+    padding-left: var(--gridGap);
 }
 
 .grid, .row {
@@ -13,45 +14,46 @@
     width: 100%;
 }
   
-.col { 
+.item { 
     flex: 1;
-    padding: 0 var(--gridGap); 
+    padding-right: var(--gridGap);
+    margin-bottom: var(--gridGap);
 }
-  
-.col-25 { flex: 0 0 25%; }
-.col-33 { flex: 0 0 33.33%; }
-.col-50 { flex: 0 0 50%; }
-.col-66 { flex: 0 0 66.67%; }
-.col-75 { flex: 0 0 75%; }
-.col-100 { flex: 0 0 100%; }
+
+.item-25 { flex-basis: 25%; }
+.item-33 { flex-basis: 33.33%; }
+.item-50 { flex-basis: 50%; }
+.item-66 { flex-basis: 66.67%; }
+.item-75 { flex-basis: 75%; }
+.item-100 { flex-basis: 100%; }
 
 @media (max-width: 1200px) {
-    .col { flex: 0 0 33.33%; } 
-    .col-100 { flex: 0 0 100%; }
+    .item { flex-basis: 33.33%; } 
+    .item-100 { flex-basis: 100%; }
 }
 
 @media (max-width: 950px) {
-    .col { flex: 0 0 50%; } 
-    .col-100 { flex: 0 0 100%; }
+    .item { flex-basis: 50%; } 
+    .item-100 { flex-basis: 100%; }
 }
 
 @media (max-width: 700px) {
-    .col { flex: 0 0 100%; }
+    .item { flex-basis: 100%; }
 }
 
 /* Usage
 <main class="grid">
     <section class="row">
-        <div class="col col-25">
+        <div class="item item-25">
             item
         </div>
-        <div class="col col-25">
+        <div class="item item-25">
             item
         </div>
-        <div class="col col-25">
+        <div class="item item-25">
             item
         </div>
-        <div class="col col-25">
+        <div class="item item-25">
             item
         </div>
     </section>
