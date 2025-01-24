@@ -8,9 +8,7 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #000000;
-    border: 2px solid #000000;
     border-radius: 10px;
-    transition: background-color 0.3s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
