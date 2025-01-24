@@ -36,6 +36,7 @@ br { height: 1em; }
 button {cursor: pointer; }
 
 select {
+    cursor: pointer;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
