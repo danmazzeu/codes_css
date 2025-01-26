@@ -6,11 +6,12 @@
     margin: 0;
     box-sizing: border-box;
     outline: none !important;
-    font-family: "Lato", sans-serif;
-    text-rendering: optimizeLegibility;
     font-size: 12px;
-    transition: all 0.3s ease-in-out;
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
     -webkit-tap-highlight-color: transparent !important;
 }
 
